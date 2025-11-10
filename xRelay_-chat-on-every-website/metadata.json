@@ -1,0 +1,5 @@
+{
+  "name": "relayX: Chat on Every Website",
+  "description": "An application that simulates an IRC channel for the current web domain, allowing users to chat with others and a helpful AI bot.",
+  "requestFramePermissions": []
+}
