@@ -14,15 +14,15 @@ const LoginScreen: React.FC<LoginScreenProps> = ({ onLogin }) => {
     return (
         <div className="w-[380px] h-[550px] bg-[#36393f] text-white rounded-md shadow-2xl flex flex-col items-center justify-center font-sans">
             <div className="text-center">
-                <h1 className="text-2xl font-bold mb-2">Domain IRC Relay</h1>
-                <p className="text-gray-400 mb-8">Chat about any website, with anyone.</p>
+                <h1 className="text-2xl font-bold mb-2">xRelay Domain Chat</h1>
+                <p className="text-gray-400 mb-8">Chat on every website</p>
                 <button
                     onClick={onLogin}
                     className="bg-[#1DA1F2] hover:bg-[#1a91da] text-white font-bold py-2 px-6 rounded-full flex items-center justify-center transition-colors duration-200"
                     aria-label="Login with X.com"
                 >
                     <XIcon />
-                    <span className="ml-3">Login with X.com</span>
+                    <span className="ml-3">Login with X</span>
                 </button>
             </div>
         </div>
